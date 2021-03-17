@@ -1,0 +1,15 @@
+<footer class="container">
+    <div class="half-container">
+        <p>Made in Chicago</p>
+        <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+    </div>
+    <div class="half-container" style="text-align: right">
+        <p>
+        {%- include social.html -%}
+        {%- if site.email -%}
+        {%- endif -%}
+        </p>
+    </div>
+</footer>
+

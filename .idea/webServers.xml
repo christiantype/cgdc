@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="78eeebd8-1cef-48df-9724-fff2f1ce644e" name="ftp.christiansolorzano.com" url="http://tealc.asoshared.com">
+        <fileTransfer host="tealc.asoshared.com" port="21" password="dfdddfc6dfdddf9adf9adf9b" username="admin@chicagographicdesign.club">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

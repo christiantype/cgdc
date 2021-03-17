@@ -1,0 +1,253 @@
+@import
+"faculty"
+;
+
+$modularscale: (
+        base: 1em,
+        ratio: 1.125
+);
+
+a, a:visited {
+  font-family: $base-font;
+}
+
+h1 {
+  font-weight:400;
+  //text-transform: uppercase;
+  font-style: normal;
+  font-family: $base-font;
+  margin: .25em 0 .25em 0;
+  font-size:ms(14);
+  letter-spacing: 1px;
+  line-height: ms(0);
+  // -webkit-animation: color-change 5s infinite;
+  //-moz-animation: color-change 5s infinite;
+  //-o-animation: color-change 5s infinite;
+  //-ms-animation: color-change 5s infinite;
+  //animation: color-change 5s infinite;
+  @media (max-width: 750px) {
+    font-size:ms(7);
+  }
+}
+
+h2 {
+  font-size:ms(7);
+  font-weight:300;
+  font-family: $accent-font;
+  color: $maincolor;
+  margin: .25em 0 .25em 0;
+  line-height:ms(1);
+  letter-spacing: 1px;
+  @media (max-width: 750px) {
+    font-size:ms(3);
+    line-height:ms(2);
+    font-weight:400;
+    margin: .25em 0 .25em 0;
+  }
+}
+
+h3 {
+  font-size:ms(5);
+  margin-top:.5em;
+  font-weight:400;
+  line-height: ms(1);
+  font-family: $base-font;
+  letter-spacing: 1px;
+  @media (max-width: 750px) {
+    font-size:ms(3);
+    font-weight:400;
+    margin-top: 1em;
+    line-height: ms(2);
+  }
+}
+
+h3 a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+
+h4 {
+  font-family: $accent-font;
+  margin-top: .5em;
+  font-weight: 400;
+  font-size:ms(1);
+  letter-spacing: 2px;
+  line-height: ms(3);
+  text-decoration: none;
+  text-transform: uppercase;
+  color:$maincolor;
+  @media (max-width: 750px) {
+    margin-top: .25em;}
+  font-size:ms(0);
+}
+
+h5 {
+  font-weight:600;
+  font-size:ms(0);
+}
+
+
+#logo {
+  vertical-align: text-bottom;
+  font-family: $base-font;
+  font-size: ms(3);
+  letter-spacing: 1px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-weight: 900;
+  -webkit-animation: color-change 5s infinite;
+  -moz-animation: color-change 5s infinite;
+  -o-animation: color-change 5s infinite;
+  -ms-animation: color-change 5s infinite;
+  animation: color-change 5s infinite;
+}
+
+nav {
+  font-family: $accent-font;
+  margin:0;
+  grid-column: span 3;
+  text-align: right;
+  align-self: center;
+
+}
+
+nav ul li {
+  float:right;
+  list-style-type: none;
+  display:inline;
+  margin: 0;
+  margin-right: 1em;
+}
+
+nav ul li:nth-last-child(1) {
+  margin-right: 0em;
+
+}
+
+nav a {
+  text-align: right;
+  font-weight:400;
+  letter-spacing: 1px;
+  font-size:ms(2);
+}
+
+
+.figcaption {
+  font-size:ms(-2);
+  padding-bottom: 1em;
+  line-height: ms(-2);
+}
+
+.post-link {
+  font-size:ms(-1);
+  text-decoration: none;
+  margin-bottom: .5em;
+
+}
+
+a, a:hover {
+  color:$maincolor;
+}
+
+body {
+  font-family: $base-font;
+  font-size: ms(0);
+}
+
+
+
+body p {
+  font-size:ms(1);
+  line-height: ms(3);
+  letter-spacing: .5px;
+  margin-top: .25em;
+  @media (max-width: 750px) {
+    font-size:ms(0);
+    line-height: ms(2);
+  }
+}
+
+footer p {
+  font-size:ms(0);
+  font-weight: 400;
+}
+
+button p {
+  margin:0em;
+  color:$backgroundc;
+  font-size:ms(0);
+}
+
+.card-text p {
+  font-size:ms(0);
+  margin-top: .25em;
+  color: $maincolor;
+}
+
+.card-text h4 {
+  color: $maincolor;
+}
+
+
+
+
+em {
+  color:$maincolor;
+  font-style: normal;
+  font-weight:600;
+  font-family: $accent-font;
+  text-transform: uppercase;
+}
+
+h2 a {
+  margin-bottom: .5em;
+  color:$maincolor;
+  text-decoration: underline;
+  font-weight:400;
+}
+
+.cta h2, .cta h4 {
+  color:$maincolor;
+  margin-top: .25em;
+}
+
+.cta a {
+  margin-top: 3em;
+  color: $maincolor;
+  text-decoration: underline;
+}
+
+.value-title {
+  grid-column: span 12;
+}
+
+.value-description {
+  grid-column-start: 3;
+  grid-column-end: 12;
+
+
+}
+
+body a {
+  color:$maincolor;
+}
+
+.social-media-list {
+  @media (max-width: 750px) {
+    text-align: left;
+  }
+
+}
+
+.nested-grid h4 {
+  color:$maincolor;
+}
+
+.nested-grid a {
+  color:$maincolor;
+}
+
+.h4 a {
+  color:$accent;
+}

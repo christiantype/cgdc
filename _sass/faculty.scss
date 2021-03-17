@@ -1,0 +1,434 @@
+
+
+$backgroundc: #fafafa;
+$accent: #ff0000;
+$maincolor: #232323;
+$accent1: #ffff00;
+$lightcolor: #1a00ff;
+$midcolor: #838c88;
+
+@-webkit-keyframes color-change {
+  0% { color: $maincolor;}
+  25% { color: $maincolor; }
+  75% { color: $accent1; }
+  50% { color: $accent1; }
+  100% { color: $maincolor;}
+}
+
+.page-content {
+  padding: 2em 2em 2em 2em;
+  margin:0 auto;
+  background-color: $backgroundc;
+  color:$maincolor;
+  line-height: 1.75em;
+
+}
+
+body {
+  display: grid;
+  background-color: $backgroundc;
+  color:$maincolor;
+  line-height: 1.75em;
+  margin: 0 auto;
+  padding:2em;
+
+  max-width: 80em;
+  font-size:ms(1);
+
+  @media only screen and (max-width: 600px)   {
+
+
+  }
+  @media only screen and (min-width: 601px)   {
+
+  }
+}
+
+::selection {
+  background: $maincolor;
+  color: $accent1;
+}
+
+/* Create a series of empty pseudo-elements... */
+html:before,html:after,body:before,body:after{
+  content:"";
+  position:fixed;
+  display:block;
+  z-index:1000;
+}
+
+/* ...and position them! */
+html:before{
+  height:5px;
+  left:0;
+  right:0;
+  top:0;
+  background: $maincolor;
+  //filter: blur(5px);
+}
+html:after{
+  width:5px;
+  top:0;
+  right:0;
+  bottom:0;
+  background: $maincolor;
+  //filter: blur(5px);
+}
+body:before{
+  height:5px;
+  right:0;
+  bottom:0;
+  left:0;
+  background: $maincolor;
+  //filter: blur(5px);
+}
+body:after{
+  width:5px;
+  top:0;
+  bottom:0;
+  left:0;
+  background: $maincolor;
+  //filter: blur(5px);
+}
+
+footer {
+  border-top: 1px solid $grey-color-light;
+  margin-top: 3em;
+  padding: $spacing-unit 0;
+}
+
+footer ul li, footer li {
+  display:inline;
+  margin-right:.5em;
+}
+
+.svg-icon {
+  fill:$maincolor;
+}
+
+.portfolio-thumbnail {
+}
+
+.container {
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: row;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin-bottom: 1em;
+
+}
+
+.full-width {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  width: 100%;
+
+}
+
+.eight-col {
+  grid-column: span 9;
+  align-self:center;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 12;
+
+  }
+}
+
+.seven-col {
+  grid-column: span 7;
+  align-items: center;
+  align-self:center;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+  //grid-column-start: 1;
+  // grid-column-end: 3;}
+
+}
+
+//.home-container-portfolio-item:nth-child(even)  {
+  //grid-column-start: 3;
+  // grid-column-end: 5;
+}
+
+.ten-col {
+  grid-column: span 10;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+
+  }
+}
+
+.five-col {
+  grid-column: span 5;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+}
+}
+
+
+.four-col {
+  grid-column: span 4;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+  }
+}
+
+.three-col {
+  grid-column: span 3;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+  }
+}
+
+
+
+.projectinfo {
+  grid-column: span 3;
+  margin-bottom: 2em;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+  }
+}
+
+.workimages {
+  margin-bottom: 2em;
+  grid-column: span 3;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 12;
+  }
+}
+
+.workimages p img {
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+img {
+ // box-shadow: 0 1px 10px 2px $accent1;
+}
+
+.post-link img {
+  box-shadow: none;
+  border:1px solid $maincolor;
+  border-radius: 1px;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+#logo {
+  grid-column: span 2;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 6;
+  }
+
+}
+
+#page-title {
+  grid-column: span 11;
+  font-size:ms(2);
+  font-weight:600;
+  text-align: left;
+  line-height:1.25em;
+}
+
+.cta {
+  margin-top: 2em;
+  align-self:center;
+  margin-bottom: 2em;
+  color: $maincolor;
+  background-color: $backgroundc;
+  text-align: left;
+  padding: 2em;
+  border:5px solid;
+  border-image-source: linear-gradient(45deg, $accent, $lightcolor, $maincolor);
+  border-image-slice: 1;
+  display: grid;
+  grid-column: span 12;
+  grid-template-columns: 1fr 1fr;
+  // box-shadow: 0 1px 10px 2px $lightcolor;
+}
+
+
+
+.cta img {
+  grid-column: span 1;
+  align-self:center;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0em;
+    grid-column: span 2;
+  }
+}
+
+.cta-text {
+  grid-column: span 1;
+  align-self:center;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0em;
+    grid-column: span 2;
+  }
+}
+
+
+hr {
+  height: 1px;
+  background-color: $accent1;
+  border: none;
+  margin: 1em 0 1em 0;
+}
+
+.event-card {
+  grid-column: span 6;
+  background-color: $backgroundc;
+  margin-bottom: 2em;
+  border:1px solid;
+  border-image-source: linear-gradient(45deg, $accent, $lightcolor, $maincolor);
+  border-image-slice: 1;
+  border-radius: 0 0 0px 0px;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0em;
+    grid-column: span 12;
+  }
+}
+
+.event-card img {
+  border-bottom: 1px solid $maincolor;
+}
+
+
+.event-card-old {
+  grid-column: span 3;
+  background-color: $backgroundc;
+  margin-bottom: 2em;
+  border:.5px solid $midcolor;
+  border-image-slice: 1;
+  border-radius: 0 0 0px 0px;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0em;
+    grid-column: span 12;
+  }
+}
+
+
+.card-text {
+  padding:1em;
+
+}
+
+.section-bg {
+  background-color: $maincolor;
+  color:$backgroundc;
+  padding: .75em;
+  //box-shadow: 0 1px 10px 2px $accent1;
+}
+
+.half-container {
+  grid-column: span 6;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+  }
+}
+
+nav {
+  grid-column: span 10;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 6;
+  }
+}
+
+header {
+  margin-bottom: 3em !important;
+}
+
+.nested-grid {
+  margin: 2em 0 2em 0;
+  border: 5px solid $maincolor;
+  background-color: $backgroundc;
+  display: grid;
+  grid-column: span 12;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-self:center;
+  border-image-source: linear-gradient(45deg, $accent, $lightcolor, $maincolor);
+  border-image-slice: 1;
+  padding: 4em;
+  color: $maincolor;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 12;
+    padding: 2em;
+  }
+}
+
+
+.nested-half {
+  grid-column: span 6;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 12;
+    padding-left: 0em;
+
+  }
+}
+
+.nested-img {
+  grid-column: span 1;
+  border-radius: 50%;
+  display:none;
+  align-self:center;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 6;
+    display:inline-block;
+
+  }
+
+
+}
+
+.nested-bio {
+  grid-column: span 5;
+  padding-left: 1em;
+  font-size:ms(0);
+  color:$maincolor;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 6;
+    padding-left: 0em;
+
+  }
+
+}
+
+.nested-bio em {
+  color:$maincolor;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.nested-bio a {
+  color:$maincolor;
+}
+
+
+
+
+.nested-full-width {
+  grid-column: span 5;
+  align-self:center;
+  margin-bottom: 1em;
+  @media only screen and (max-width: 600px) {
+    grid-column: span 12;
+    padding-left: 0em;
+
+  }
+}
+
+
+.start-three {
+  grid-column-start: 3;
+  @media only screen and (max-width: 600px) {
+    grid-column-start: 1;
+
+  }
+}
