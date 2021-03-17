@@ -2,21 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbae197c-8752-40ee-906d-89f58419e54a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_typography.scss" afterPath="$PROJECT_DIR$/_sass/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/faculty.scss" afterPath="$PROJECT_DIR$/_sass/faculty.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2021/02/28/angela.html" afterPath="$PROJECT_DIR$/_site/2021/02/28/angela.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2021/02/28/melody.html" afterPath="$PROJECT_DIR$/_site/2021/02/28/melody.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2021/02/28/profile-sample.html" afterPath="$PROJECT_DIR$/_site/2021/02/28/profile-sample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="$PROJECT_DIR$/_site/assets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/main.css.map" afterPath="$PROJECT_DIR$/_site/assets/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/spotlights.html" afterPath="$PROJECT_DIR$/_site/spotlights.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2021/02/28/angela.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2021/02/28/melody.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2021/02/28/profile-sample.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/android-chrome-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/android-chrome-512x512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/cgdc_logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/cgdc_open-graph.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/about/cgdc_book-club.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/about/cgdc_office-hours.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/about/cgdc_spotlight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club-the-narrative.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_are-we-human_eventbrite_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_bauhaus_eventbrite_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_design-as-an-attitude_eventbrite_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_design_as_art_eventbrite_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_designing_design_eventbrite_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_experimenting-in-gd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-community.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-design-justice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-ellen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-eventbrite-JasonKunesh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-matt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-monuments.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc_eventbrite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/office_hours.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/public/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/scss/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/license.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/test-eyeglass/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/test-eyeglass/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/test-eyeglass/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/site.webmanifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/spotlights.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59322035">
+            <state vertical-scroll-proportion="-4.117647">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.056818184">
+              <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -115,6 +163,7 @@
         <option value="$PROJECT_DIR$/_sass/faculty.scss" />
         <option value="$PROJECT_DIR$/_sass/_typography.scss" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -168,20 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,9 +315,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="840" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -318,13 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/faculty.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -663,8 +691,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59322035">
+        <state vertical-scroll-proportion="-4.117647">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056818184">
+          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
-# minima
+# Chicago Graphic Design Club Website
 
-*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
+*This is the CGDC's website that was built using Jekyll and Jekyll's default theme, Minima.
 
 [Theme preview](https://jekyll.github.io/minima/)
 
