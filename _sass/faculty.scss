@@ -1,10 +1,10 @@
 
 
 $backgroundc: #fafafa;
-$accent: #ff0000;
-$maincolor: #232323;
+$accent: #ffaa9b;
+$maincolor: #000000;
 $accent1: #ffff00;
-$lightcolor: #1a00ff;
+$lightcolor: #a2bdff;
 $midcolor: #838c88;
 
 @-webkit-keyframes color-change {
@@ -275,13 +275,14 @@ img {
 
 hr {
   height: 1px;
-  background-color: $accent1;
+  background-color: $lightcolor;
   border: none;
   margin: 1em 0 1em 0;
 }
 
 .event-card {
   grid-column: span 6;
+  box-shadow: 0 1px 10px 2px $midcolor;
   background-color: $backgroundc;
   margin-bottom: 2em;
   border:1px solid;
@@ -365,6 +366,7 @@ header {
 .nested-half {
   grid-column: span 6;
   display:grid;
+  text-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   @media only screen and (max-width: 600px) {
     grid-column: span 12;
@@ -432,3 +434,9 @@ header {
 
   }
 }
+
+.background-colored {
+  background-color: $maincolor;
+  color:$backgroundc;
+}
+
