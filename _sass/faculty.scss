@@ -4,7 +4,7 @@ $backgroundc: #fafafa;
 $accent: #ffaa9b;
 $maincolor: #000000;
 $accent1: #ffff00;
-$lightcolor: #a2bdff;
+$lightcolor: #ebebeb;
 $midcolor: #838c88;
 
 @-webkit-keyframes color-change {
@@ -128,7 +128,7 @@ footer ul li, footer li {
 }
 
 .eight-col {
-  grid-column: span 9;
+  grid-column: span 8;
   align-self:center;
   @media only screen and (max-width: 600px) {
     grid-column: span 12;
@@ -154,6 +154,14 @@ footer ul li, footer li {
 
 .ten-col {
   grid-column: span 10;
+  @media only screen and (max-width: 600px)   {
+    grid-column: span 12;
+
+  }
+}
+
+.nine-col {
+  grid-column: span 9;
   @media only screen and (max-width: 600px)   {
     grid-column: span 12;
 
@@ -252,6 +260,11 @@ img {
   // box-shadow: 0 1px 10px 2px $lightcolor;
 }
 
+.cta-small {
+  background-color: $lightcolor;
+  padding:2em;
+}
+
 
 
 .cta img {
@@ -282,7 +295,7 @@ hr {
 
 .event-card {
   grid-column: span 6;
-  box-shadow: 0 1px 10px 2px $midcolor;
+  box-shadow: 0 1px 10px 2px $lightcolor;
   background-color: $backgroundc;
   margin-bottom: 2em;
   border:1px solid;
@@ -440,3 +453,6 @@ header {
   color:$backgroundc;
 }
 
+.profile {
+  border:1px solid $maincolor;
+}

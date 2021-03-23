@@ -2,59 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbae197c-8752-40ee-906d-89f58419e54a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2021/02/28/angela.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2021/02/28/melody.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2021/02/28/profile-sample.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/android-chrome-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/android-chrome-512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/cgdc_logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/cgdc_open-graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/about/cgdc_book-club.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/about/cgdc_office-hours.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/about/cgdc_spotlight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club-the-narrative.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_are-we-human_eventbrite_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_bauhaus_eventbrite_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_design-as-an-attitude_eventbrite_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_design_as_art_eventbrite_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_designing_design_eventbrite_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/book-club_experimenting-in-gd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-community.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-design-justice.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-ellen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-eventbrite-JasonKunesh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-matt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc-monuments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/cgdc_eventbrite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/images/office_hours.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/main.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/public/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/libsass/scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/test-eyeglass/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/test-eyeglass/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bower_components/modular-scale/test-eyeglass/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/site.webmanifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/spotlights.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/spotlight-landing.html" afterPath="$PROJECT_DIR$/_layouts/spotlight-landing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md" afterPath="$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_typography.scss" afterPath="$PROJECT_DIR$/_sass/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/faculty.scss" afterPath="$PROJECT_DIR$/_sass/faculty.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spotlights.html" afterPath="$PROJECT_DIR$/spotlights.html" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +33,8 @@
       <file leaf-file-name="faculty.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/faculty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3619049">
-              <caret line="368" column="21" selection-start-line="368" selection-start-column="21" selection-end-line="368" selection-end-column="21" />
+            <state vertical-scroll-proportion="-2.5512822">
+              <caret line="297" column="40" selection-start-line="297" selection-start-column="40" selection-end-line="297" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,38 +43,18 @@
       <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4615383">
-              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+            <state vertical-scroll-proportion="-4.0784316">
+              <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.117647">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.056818184">
-              <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.7486631">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -128,8 +63,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.29411766">
+            <state vertical-scroll-proportion="-0.625">
               <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2021-02-28-profile-sample.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2222223">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -155,15 +110,17 @@
         <option value="$PROJECT_DIR$/_sass/minima.scss" />
         <option value="$PROJECT_DIR$/spotlight.html" />
         <option value="$PROJECT_DIR$/_posts/2021-02-28-christian-solorzano.MARKUP" />
-        <option value="$PROJECT_DIR$/_layouts/spotlight-landing.html" />
         <option value="$PROJECT_DIR$/_posts/2021-02-28-christian-solorzano.md" />
-        <option value="$PROJECT_DIR$/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md" />
         <option value="$PROJECT_DIR$/_posts/2021-02-28-melody.md" />
-        <option value="$PROJECT_DIR$/_sass/faculty.scss" />
-        <option value="$PROJECT_DIR$/_sass/_typography.scss" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spotlights.html" />
+        <option value="$PROJECT_DIR$/_layouts/spotlight-landing.html" />
+        <option value="$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_sass/faculty.scss" />
+        <option value="$PROJECT_DIR$/_sass/_typography.scss" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
       </list>
     </option>
   </component>
@@ -175,7 +132,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1440" />
-    <option name="height" value="840" />
+    <option name="height" value="843" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,8 +181,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,6 +195,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -314,27 +272,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="840" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1440" height="843" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18010753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1793842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -486,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -621,39 +572,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44697633">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/minima.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11831727">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21089631">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.02255639">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/spotlight-landing.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14460999">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spotlights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.013146363">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.043541364">
+          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -661,46 +597,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/spotlight-landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3468208">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spotlights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0647482">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29411766">
+        <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-02-28-profile-sample.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2222223">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/faculty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3619049">
-          <caret line="368" column="21" selection-start-line="368" selection-start-column="21" selection-end-line="368" selection-end-column="21" />
+        <state vertical-scroll-proportion="-2.5512822">
+          <caret line="297" column="40" selection-start-line="297" selection-start-column="40" selection-end-line="297" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4615383">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state vertical-scroll-proportion="-4.0784316">
+          <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.117647">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.056818184">
-          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.7486631">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>
