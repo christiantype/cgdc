@@ -1,26 +1,34 @@
 ---
 layout: default
 ---
-<article class="eight-col" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="full-width">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p>{{page.description}}</p>
-    <h4>
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
-    </h4>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <p class="full-width">Back to <a href="/spotlights.html">Spotlights</a></p>
+  <header class="spotlight-head">
+    <img src="/assets/images/spotlight/{{page.img}}">
+      <span class="cta-text">
+        <p class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {{ page.date | date: date_format }}
+          </time>
+        </p>
+        <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+        <h2>{{page.description}}</h2>
+        <p>Instagram | {{ page.instagram }}</p>
+        <p itemprop="author name" itemscope itemtype="http://schema.org/Person">Conversation with {{ page.author}}</p>
+      </span>
   </header>
-  <hr>
 
-  <div class="half-container" itemprop="articleBody">
+  <span class="full-width start-four post-body" itemprop="articleBody">
+
+    <p>
+      <em>About Christian</em>
+      <br>
+      {{ page.brief-bio }}
+    </p>
+    <hr>
     {{ content }}
-  </div>
+  </span>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

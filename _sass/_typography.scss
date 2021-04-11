@@ -12,7 +12,7 @@ a, a:visited {
 }
 
 h1 {
-  font-weight:600;
+  font-weight:400;
   //text-transform: uppercase;
   font-style: normal;
   font-family: $base-font;
@@ -26,15 +26,15 @@ h1 {
   //-ms-animation: color-change 5s infinite;
   //animation: color-change 5s infinite;
   @media (max-width: 750px) {
-    font-size:ms(7);
+    font-size:ms(5);
   }
 }
 
 h2 {
-  font-size:ms(7);
-  font-weight:300;
-  font-family: $accent-font;
-  margin: .25em 0 .25em 0;
+  font-size:ms(9);
+  font-weight:400;
+  font-family: $base-font;
+  margin: .15em 0 .25em 0;
   line-height:ms(1);
   letter-spacing: 1px;
   @media (max-width: 750px) {
@@ -62,20 +62,21 @@ h3 {
 }
 
 h3 a {
-  text-decoration: underline;
-  font-weight: 600;
+  text-decoration: none;
+  font-weight: 400;
+  color:$accent1;
 }
 
 
 h4 {
-  font-family: $accent-font;
+  font-family: $base-font;
   margin-top: .5em;
-  font-weight: 400;
-  font-size:ms(1);
+  font-weight: 600;
+  font-size:ms(5);
+  text-transform: uppercase;
   letter-spacing: 2px;
   line-height: ms(3);
   text-decoration: none;
-  text-transform: uppercase;
   @media (max-width: 750px) {
     margin-top: .25em;}
   font-size:ms(0);
@@ -147,6 +148,8 @@ nav a {
 
 a, a:hover {
   color:$maincolor;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 body {
@@ -192,16 +195,15 @@ button p {
 
 
 em {
-  color:$maincolor;
   font-style: normal;
-  font-weight:600;
-  font-family: $accent-font;
+  font-weight:400;
+  font-family: inherit;
   text-transform: uppercase;
 }
 
 h2 a {
   margin-bottom: .5em;
-  color:$maincolor;
+  color:$accent1;
   text-decoration: underline;
   font-weight:400;
   text-transform: uppercase;
@@ -214,8 +216,7 @@ h2 a {
 
 .cta a {
   margin-top: 3em;
-  color: $maincolor;
-  text-decoration: underline;
+  color: $accent1;
 }
 
 .value-title {
@@ -225,13 +226,12 @@ h2 a {
 .value-description {
   grid-column-start: 3;
   grid-column-end: 12;
-
-
 }
 
 body a {
-  color:$maincolor;
-  text-decoration: underline;
+  color:$accent1;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .social-media-list {
@@ -248,5 +248,13 @@ body a {
 }
 
 .h4 a {
-  color:$accent;
+  color:$accent1;
+}
+
+.post-body p {
+  margin-bottom: 3em;
+}
+
+.profile-card p {
+  font-weight: 400;
 }

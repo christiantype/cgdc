@@ -1,11 +1,11 @@
 
 
-$backgroundc: #fafafa;
-$accent: #ffaa9b;
+$backgroundc: #ffffff;
+$accent1: #1a00ff;
 $maincolor: #000000;
-$accent1: #ffff00;
-$lightcolor: #ebebeb;
-$midcolor: #838c88;
+$accent: #ff1931;
+$lightcolor: #f0f0f0;
+$midcolor: #ffff00;
 
 @-webkit-keyframes color-change {
   0% { color: $maincolor;}
@@ -14,6 +14,8 @@ $midcolor: #838c88;
   50% { color: $accent1; }
   100% { color: $maincolor;}
 }
+
+
 
 .page-content {
   padding: 2em 2em 2em 2em;
@@ -32,7 +34,7 @@ body {
   margin: 0 auto;
   padding:2em;
 
-  max-width: 80em;
+  max-width: 95em;
   font-size:ms(1);
 
   @media only screen and (max-width: 600px)   {
@@ -59,7 +61,7 @@ html:before,html:after,body:before,body:after{
 
 /* ...and position them! */
 html:before{
-  height:5px;
+  height:20px;
   left:0;
   right:0;
   top:0;
@@ -67,7 +69,7 @@ html:before{
   //filter: blur(5px);
 }
 html:after{
-  width:5px;
+  width:20px;
   top:0;
   right:0;
   bottom:0;
@@ -75,7 +77,7 @@ html:after{
   //filter: blur(5px);
 }
 body:before{
-  height:5px;
+  height:20px;
   right:0;
   bottom:0;
   left:0;
@@ -83,7 +85,7 @@ body:before{
   //filter: blur(5px);
 }
 body:after{
-  width:5px;
+  width:20px;
   top:0;
   bottom:0;
   left:0;
@@ -117,6 +119,11 @@ footer ul li, footer li {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   margin-bottom: 1em;
+  @media only screen and (max-width: 600px) {
+    grid-column-gap: 0em;
+    grid-row-gap: 0em;
+
+  }
 
 }
 
@@ -252,7 +259,7 @@ img {
   text-align: left;
   padding: 2em;
   border:5px solid;
-  border-image-source: linear-gradient(45deg, $accent, $lightcolor, $maincolor);
+  border-image-source: linear-gradient(45deg, $accent, $accent1, $maincolor);
   border-image-slice: 1;
   display: grid;
   grid-column: span 12;
@@ -261,8 +268,12 @@ img {
 }
 
 .cta-small {
+  border:5px solid;
+  border-image-source: linear-gradient(45deg, $accent, $accent1, $maincolor);
+  border-image-slice: 1;
   background-color: $lightcolor;
   padding:2em;
+
 }
 
 
@@ -279,6 +290,7 @@ img {
 .cta-text {
   grid-column: span 1;
   align-self:center;
+  padding: 1em;
   @media only screen and (max-width: 600px) {
     margin-top: 0em;
     grid-column: span 2;
@@ -295,18 +307,27 @@ hr {
 
 .event-card {
   grid-column: span 6;
-  box-shadow: 0 1px 10px 2px $lightcolor;
   background-color: $backgroundc;
   margin-bottom: 2em;
-  border:1px solid;
-  border-image-source: linear-gradient(45deg, $accent, $lightcolor, $maincolor);
-  border-image-slice: 1;
+  border: 1px solid $maincolor;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0em;
+    grid-column: span 12;
+  }
+}
+
+.profile-card {
+  grid-column: span 3;
+  background-color: $lightcolor;
+  margin-bottom: 2em;
+  border:1px solid $maincolor;
   border-radius: 0 0 0px 0px;
   @media only screen and (max-width: 600px) {
     margin-top: 0em;
     grid-column: span 12;
   }
 }
+
 
 .event-card img {
   border-bottom: 1px solid $maincolor;
@@ -315,9 +336,9 @@ hr {
 
 .event-card-old {
   grid-column: span 3;
-  background-color: $backgroundc;
+  background-color: $lightcolor;
   margin-bottom: 2em;
-  border:.5px solid $midcolor;
+  border:1px solid $maincolor;
   border-image-slice: 1;
   border-radius: 0 0 0px 0px;
   @media only screen and (max-width: 600px) {
@@ -355,6 +376,8 @@ nav {
 
 header {
   margin-bottom: 3em !important;
+  padding-bottom: 1em;
+  border-bottom: 2px solid $maincolor;
 }
 
 .nested-grid {
@@ -365,13 +388,15 @@ header {
   grid-column: span 12;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   align-self:center;
-  border-image-source: linear-gradient(45deg, $accent, $lightcolor, $maincolor);
-  border-image-slice: 1;
   padding: 4em;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
   color: $maincolor;
   @media only screen and (max-width: 600px) {
     grid-column: span 12;
     padding: 2em;
+    grid-column-gap: 0em;
+    grid-row-gap: 0em;
   }
 }
 
@@ -379,8 +404,8 @@ header {
 .nested-half {
   grid-column: span 6;
   display:grid;
-  text-align: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  text-align: left;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
   @media only screen and (max-width: 600px) {
     grid-column: span 12;
     padding-left: 0em;
@@ -441,18 +466,59 @@ header {
 
 
 .start-three {
-  grid-column-start: 3;
+    grid-column-start: 3;
+    @media only screen and (max-width: 600px) {
+      grid-column-start: 1;
+  }
+}
+
+.start-four {
+  grid-column-start: 4;
   @media only screen and (max-width: 600px) {
     grid-column-start: 1;
-
   }
 }
 
 .background-colored {
   background-color: $maincolor;
-  color:$backgroundc;
+  color: $backgroundc;
+  padding: 2em;
+  border-radius: 20px;
+}
+
+.background-colored a {
+  color: $midcolor;
 }
 
 .profile {
-  border:1px solid $maincolor;
+  border: 1px solid $maincolor;
+}
+
+.spotlight-head {
+  margin-top: 2em;
+  align-self: center;
+  margin-bottom: 2em;
+  color: $lightcolor;
+  background-color: $maincolor;
+  text-align: left;
+  padding: 2em;
+  border-radius: 20px;
+  display: grid;
+  grid-column: span 12;
+  grid-template-columns: 1fr 1fr;
+  // box-shadow: 0 1px 10px 2px $lightcolor;
+}
+
+
+
+article {
+    display: grid;
+    grid-column: span 12;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+hr {
+    background-color: $maincolor;
 }
